@@ -14,16 +14,25 @@ public class VentanaPrincipal {
 
     private static void crearYMostrarGUI() {
         // Crear la ventana principal (JFrame)
-        JFrame ventana = new JFrame("Mi Primera Ventana GUI");
+        JFrame ventana = new JFrame("My first GUI window");
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setSize(400, 200);
+        ventana.getContentPane().setBackground(Color.PINK);
 
         // Crear una etiqueta de texto centrada
-        JLabel etiqueta = new JLabel("Hola Mundo GUI con Swing", SwingConstants.CENTER);
+        JLabel etiqueta = new JLabel("Hello GUI World with Swing (CENTER)", SwingConstants.CENTER);
         etiqueta.setFont(new Font("Arial", Font.BOLD, 16));
+
+
+        JLabel etiqueta1 = new JLabel("Trying the TOP (PAGE_START)", SwingConstants.CENTER);
+        etiqueta1.setFont(new Font("Arial", Font.ITALIC, 16));
+        JLabel etiqueta2 = new JLabel("Trying the bottom (PAGE_END)", SwingConstants.CENTER);
+        etiqueta2.setFont(new Font("Arial", Font.ITALIC, 16));
 
         // Añadir la etiqueta al contenido de la ventana, centrada
         ventana.getContentPane().add(etiqueta, BorderLayout.CENTER);
+        ventana.getContentPane().add(etiqueta1, BorderLayout.PAGE_START);
+        ventana.getContentPane().add(etiqueta2, BorderLayout.SOUTH);
 
         // Centrar la ventana en la pantalla
         ventana.setLocationRelativeTo(null);
