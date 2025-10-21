@@ -74,10 +74,6 @@ public class VentanaPrincipal {
             }
         });
 
-
-
-
-
         // Cambio de colores con acción en el botón
         button3.addActionListener(new ActionListener() {
             boolean isColorChanged = false;
@@ -95,9 +91,6 @@ public class VentanaPrincipal {
 
             }
         });
-
-
-
 
         // Centrar la ventana en la pantalla
         ventana.setLocationRelativeTo(null);
