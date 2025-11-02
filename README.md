@@ -1,5 +1,13 @@
 # 🎨 Interface Development [DAM]
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20JavaFX-FEC89A?style=for-the-badge" alt="Stack Badge">
+  <img src="https://img.shields.io/badge/Focus-UI%20Design%20%26%20Responsive%20Layouts-84A59D?style=for-the-badge" alt="Focus Badge">
+  <img src="https://img.shields.io/badge/Design-Neumorphism%20%7C%20Pastel%20Palette-FD6F96?style=for-the-badge" alt="Design Badge">
+  <img src="https://img.shields.io/badge/Tools-Figma%20%7C%20Scene%20Builder%20%7C%20VS%20Code-64C9CF?style=for-the-badge" alt="Tools Badge">
+  <img src="https://img.shields.io/badge/Status-Active-52796F?style=for-the-badge" alt="Status Badge">
+</p>
+
 This repository contains all the projects, exercises, and materials developed throughout the Interface Development course, part of my Multiplatform Application Development degree.
 
 The goal of this repository is to document my progress in building user interfaces, improving usability, and applying software engineering best practices. Each folder represents one of the course units, covering both the technical and design aspects of interface development.
