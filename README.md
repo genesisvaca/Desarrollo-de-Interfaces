@@ -1,4 +1,4 @@
-## 🎨 Interface Development [DAM]
+# 🎨 Interface Development [DAM]
 
 This repository contains all the projects, exercises, and materials developed throughout the Interface Development course, part of my Multiplatform Application Development degree.
 
@@ -13,6 +13,14 @@ Understanding the fundamentals of graphical user interfaces and their role in mo
 
 * UT1 – Creating User Interfaces
 Designing and implementing user interfaces using programming tools and layout managers.
+
+    ### 🔗 [🎨 Neumorphic User Form – Java Swing](https://github.com/genesisvaca/Neomorphic-Form)
+    A pastel **neumorphic-style** user registration form built with **Java Swing**, combining aesthetics and validation logic.  
+    
+    ![🧾 Validates Required Fields](https://img.shields.io/badge/🧾_Validates_Required_Fields-ffd1dc?style=for-the-badge)
+    ![💾 Saves to TXT File](https://img.shields.io/badge/💾_Saves_to_TXT_File-ffc9de?style=for-the-badge)
+    ![🌸 Custom UI Components](https://img.shields.io/badge/🌸_Custom_UI_Components-ffe5ec?style=for-the-badge)
+    ![☕ Pure Java](https://img.shields.io/badge/☕_Pure_Java_(no_dependencies)-f9d5d3?style=for-the-badge)
 
 * UT2 – Generating Interfaces from XML Documents
 Creating structured interfaces using XML and integrating them with application logic.
